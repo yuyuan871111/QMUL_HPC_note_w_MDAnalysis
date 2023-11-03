@@ -1,0 +1,15 @@
+name: mdanalysis
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - mamba
+  - mdanalysis
+  - ca-certificates
+  - certifi
+  - openssl
+  - mdanalysistests
+  - mdanalysisdata
+  - ipykernel
+  - ipywidgets
+prefix: /data/home/bty391/miniconda3/envs/mdanalysis
