@@ -26,15 +26,23 @@ conda install -c conda-forge mdanalysisdata     # install package for getting ad
 
 conda install -c conda-forge ipywidgets         # install ipynb for VScode
 ```
-
+#### other python modules needed
+```bash
+pip install nglview         # Optionally, use NGLView to interactively view your trajectory
+```
 
 ### Get started with the tutorials
-[Tutorial01-quickstart](./Tutorial_notebook/Tutorial01_quickstart.ipynb): learn how to 
-(1) load a structure or trajectory, 
-(2) select atoms, chains, residues, and universe
-(3) work with trajectory
-(4) write out coordinates
-(5) use methods to analyse the trajectory
+[Tutorial01-quickstart](./Tutorial_notebook/Tutorial01_quickstart.ipynb): learn how to  
+(1) load a structure or trajectory.  
+(2) select atoms, chains, residues, and universe.  
+(3) work with trajectory.  
+(4) write out coordinates.  
+(5) use methods to analyse the trajectory.  
+
+[Tutorial02-modifyuniverse](./Tutorial_notebook/Tutorial02_modifyuniverse.ipynb): learn how to
+(1) create a Universe consisting of water molecules.  
+(2) merge this with a protein Universe loaded from a file.  
+(3) create custom segments labeling protein domains.  
 
 
 ## Trouble shooting
