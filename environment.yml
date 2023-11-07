@@ -12,4 +12,5 @@ dependencies:
   - mdanalysisdata
   - ipykernel
   - ipywidgets
+  - openmm
 prefix: /data/home/bty391/miniconda3/envs/mdanalysis
