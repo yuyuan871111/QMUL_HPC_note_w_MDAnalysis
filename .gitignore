@@ -166,3 +166,6 @@ psa*
 \.psa*
 adk*
 \.adk*
+hol*
+*.pdb
+water*

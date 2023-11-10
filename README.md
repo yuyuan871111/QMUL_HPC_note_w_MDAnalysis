@@ -30,6 +30,8 @@ conda install openmm -y
 conda install parmed -y
 conda install nglview=2.7.7 -y            # Optionally, use NGLView to interactively view your trajectory
 conda install moviepy -y            # Optionally, create the movie
+conda install scikit-image -y
+conda install pyvista -y
 ```
 
 ### Get started with the tutorials
@@ -73,37 +75,34 @@ All distances within a selection.
 (6) Write your own native contacts analysis method.  
 
 [Tutorial07 - Trajectory similarity](./Tutorial_notebook/Tutorial07_TrajSimilar.ipynb): learn how to  
-(1) Comparing the geometric similarity of trajectories.  
-(2) Calculating the Harmonic Ensemble Similarity between ensembles.  
-(3) Calculating the Clustering Ensemble Similarity between ensembles.  
-(4) Calculating the Dimension Reduction Ensemble Similarity between ensembles.  
-(5) Evaluating convergence.  
+(1) compare the geometric similarity of trajectories.  
+(2) calculate the Harmonic Ensemble Similarity between ensembles.  
+(3) calculate the Clustering Ensemble Similarity between ensembles.  
+(4) calculate the Dimension Reduction Ensemble Similarity between ensembles.  
+(5) evaluate convergence.  
 
 [Tutorial08 - Structure analysis](./Tutorial_notebook/Tutorial08_StructureAnaly.ipynb): learn how to  
 (1) Elastic network analysis.  
 (2) Average radial distribution functions.  
-(3) Calculating the RDF atom-to-atom.  
+(3) Calculate the RDF atom-to-atom.  
 (4) Protein dihedral angle analysis.  
 (5) Helix analysis.  
 
 [Tutorial09 - Dimenstion reduction](./Tutorial_notebook/Tutorial09_dimReduce.ipynb): learn how to  
-(1) Perform principal component analysis for a trajectory.  
-(2) Perform non-linear dimension reduction to diffusion maps.  
+(1) perform principal component analysis for a trajectory.  
+(2) perform non-linear dimension reduction to diffusion maps.  
 
 [Tutorial10 - Polymers and membranes](./Tutorial_notebook/Tutorial10_polymer_member.ipynb): learn how to  
-(1) Determining the persistence length of a polymer.  
-(2) Analysing pore dimensions with HOLE2.  
+(1) determine the persistence length of a polymer.  
+(2) analyse pore dimensions with HOLE2.  
 
 [Tutorial11 - Volumetric analyses](./Tutorial_notebook/Tutorial10_polymer_member.ipynb): learn how to   
-(1) Compute mass and charge density on each axis.  
-(2) Calculate the solvent density around a protein.  
+(1) compute mass and charge density on each axis.  
+(2) calculate the solvent density around a protein.  
 
 [Tutorial12 - transform views to images and videos](./Tutorial_notebook/Tutorial12_nglview_video.ipynb): learn to create a images and videos from NGL view.
 
 [Tutorial13 - automatically transforming trajectory to videos](./Tutorial_notebook/Tutorial13_nglview_video_func.ipynb): try to develop a function to generate the trajectory video. (but there are some bugs that `the video is fixed` and `have to waiting for the image generations with unpredictable time`)
-
-
-
 
 
 ## Trouble shooting

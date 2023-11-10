@@ -14,4 +14,6 @@ dependencies:
   - nglview
   - moviepy
   - ffmpeg
+  - scikit-image
+  - pyvista
 prefix: /home/yuyang/miniconda3/envs/mdanalysis
