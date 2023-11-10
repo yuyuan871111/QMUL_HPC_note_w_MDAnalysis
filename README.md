@@ -86,13 +86,17 @@ All distances within a selection.
 (4) Protein dihedral angle analysis.  
 (5) Helix analysis.  
 
-
 [Tutorial09 - Dimenstion reduction](./Tutorial_notebook/Tutorial09_dimReduce.ipynb): learn how to  
 (1) Perform principal component analysis for a trajectory.  
-(2) Average radial distribution functions.  
-(3) Calculating the RDF atom-to-atom.  
-(4) Protein dihedral angle analysis.  
-(5) Helix analysis.  
+(2) Perform non-linear dimension reduction to diffusion maps.  
+
+[Tutorial10 - Polymers and membranes](./Tutorial_notebook/Tutorial10_polymer_member.ipynb): learn how to  
+(1) Determining the persistence length of a polymer.  
+(2) Analysing pore dimensions with HOLE2.  
+
+[Tutorial11 - Volumetric analyses](./Tutorial_notebook/Tutorial10_polymer_member.ipynb): learn how to   
+(1) Compute mass and charge density on each axis.  
+(2) Calculate the solvent density around a protein.  
 
 [Tutorial12 - transform views to images and videos](./Tutorial_notebook/Tutorial12_nglview_video.ipynb): learn to create a images and videos from NGL view.
 
